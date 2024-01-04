@@ -1,6 +1,6 @@
 # Script for changing optical groups in relion .star files
 
-The script is adding correct optical groups for each particle in particles.star file. 
+The script is adding correct optical groups for each particle in particles.star file if optical groups weren't specified for some reason. 
 The correct optic groups are taken from micrographs_ctf.star file.
 
 To start the script: 
