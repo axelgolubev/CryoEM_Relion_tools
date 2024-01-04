@@ -1,7 +1,6 @@
 # The script is created for a fast convertation of mrc files to png.
 # The script should be located inside a job before 'Tiff' folder with required mrc files.
 # Load relion module before use.
-# To start job on Maxwell one can use: sbatch --partition=cssb --constraint=INTEL --wrap 'python3 png_converter.py'
 
 import glob
 import os
