@@ -12,5 +12,3 @@ The processing takes around 1-2 minutes depending on the number of particles.
 
 Possible problems to fix:
 1) Script recreates the particles file with different spacing between columns - it could possibly cause problems reading the file with Relion.
-   To solve it we have to understand how to add correct spacing between columns or use other tools to transform .star files (for example wi
-
