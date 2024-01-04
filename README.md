@@ -1,4 +1,8 @@
-# Script for changing optical groups in relion .star files
+# Collection of tools for cryoem data processing
+The tools were created to facilitate different aspects of processing cryoem data. 
+The application possibly is very niche, however I hope that someone find tools usefull.
+
+## Script for changing optical groups in relion .star files
 
 The script is adding correct optical groups for each particle in particles.star file if optical groups weren't specified for some reason. 
 The correct optic groups are taken from micrographs_ctf.star file.
@@ -12,3 +16,10 @@ The processing takes around 1-2 minutes depending on the number of particles.
 
 Possible problems to fix:
 1) Script recreates the particles file with different spacing between columns - it could possibly cause problems reading the file with Relion.
+
+
+## MRC2PNG converter
+The script is created for a fast convertation of mrc files to png.
+The script should be located inside a job before 'Tiff' folder with required mrc files.
+Load relion module before use.
+
