@@ -8,7 +8,7 @@ The correct optic groups are taken from micrographs_ctf.star file.
 To start the script: 
 1) copy this .py file to a folder when results will be stored.
 2) add corresponding pathways for micrographs_ctf.star and particles.star file to the field below in the beggining of the script
-3) Run script: python change_optic.py
+3) Run script in terminal: python change_optic.py
 
 Possible problems to fix:
 1) Script recreates the particles file with different spacing between columns - it could possibly cause problems reading the file with Relion.
